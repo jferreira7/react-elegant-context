@@ -1,3 +1,5 @@
 Soluções para o pop drilling:
 
 - Component composition: alterar a composição dos componentes para diminuir o pop drilling, como a utilização do prop children, por exemplo;
+- Context API: podemos passar valores e funções que atualizarão estados para outros componentes diretamente para os componentes que precisam desses valores ou métodos;
+    - Definir o valor padrão no createContext é bom apenas para ao auto completion, mas o que vale mesmo é o valor no value no elemento do .Provider;
