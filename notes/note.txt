@@ -1,0 +1,3 @@
+Soluções para o pop drilling:
+
+- Component composition: alterar a composição dos componentes para diminuir o pop drilling, como a utilização do prop children, por exemplo;
